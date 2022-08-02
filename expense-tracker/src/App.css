@@ -1,0 +1,360 @@
+.App {
+  text-align: center;
+}
+
+.navbar {
+  width: 100vw;
+  height: 60px;
+  background-color: white;
+}
+
+.main-div-bkgrnd {
+  background-color: white;
+  margin: auto;
+  padding: 10px;
+  padding-top: 5px;
+  max-width: 800px;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+.card {
+  background-color: rgb(0, 24, 47);
+  border-radius: 3px;
+  box-shadow: 0px 0px 2px 0px rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+.date-div {
+  min-width: 150px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  background-color: rgb(1, 0, 6);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.date__m-d {
+  width: 100px;
+  padding-bottom: 3px;
+}
+
+.date__month {
+  color: white;
+  font-weight: 600;
+  font-size: medium;
+  text-align: center;
+}
+
+.date__year {
+  color: white;
+  text-align: center;
+}
+
+.date__day {
+  color: white;
+  font-size: 20pt;
+  font-weight: 700;
+  padding-right: 5px;
+  padding-top: 3px;
+}
+
+.expense-div {
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: x-large;
+  font-weight: 400;
+  padding-bottom: 6px;
+  margin-left: auto;
+}
+
+.cost-div {
+  color: rgb(255, 255, 255);
+  min-width: 200px;
+  font-size: x-large;
+  font-weight: 600;
+  margin-left: auto;
+  background-color: rgb(26, 43, 70);
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 6px;
+}
+
+.main-add-div {
+  background-color: white;
+  margin: auto;
+  padding: 20px;
+  width: 800px;
+  border-radius: 3px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.ex-controls {
+  display: flex;
+  flex-direction: column;
+}
+
+.ex-controls-2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.ex-controls-2 label {
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+  margin-right: 5px;
+  display: block;
+}
+
+
+.ex-controls input {
+  font: inherit;
+  width: 15rem;
+  margin-bottom: 5px;
+}
+
+.ex-controls label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.ex-button {
+  font: inherit;
+  color: white;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 15rem;
+  margin-top: auto;
+  border-radius: 3px;
+  border: none;
+  background-color: rgb(0, 24, 47);
+}
+
+.menu-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.ex-button:hover {
+  background-color: rgb(2, 64, 122);
+  cursor: pointer;
+}
+
+.ex-button-new {
+  font: inherit;
+  color: white;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 15rem;
+  border-radius: 3px;
+  border: none;
+  background-color: rgb(0, 24, 47);
+}
+
+.button-budget {
+  font: inherit;
+  color: white;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 15rem;
+  border-radius: 3px;
+  border: none;
+  background-color: rgb(0, 24, 47);
+  margin-bottom: auto;
+  margin-top: 7px;
+}
+
+.button-budget:hover {
+  background-color: rgb(2, 64, 122);
+  cursor: pointer;
+}
+
+.ex-button-new:hover {
+  background-color: rgb(2, 64, 122);
+  cursor: pointer;
+}
+
+.ex-button-2 {
+  color: white;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 15rem;
+  margin-top: auto;
+  border-radius: 3px;
+  border: none;
+  background-color: rgb(187, 30, 30);
+}
+
+.cancel:hover {
+  background-color: rgb(252, 64, 64);
+  cursor: pointer;
+}
+
+.ex-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-main {
+  background-color: rgb(26, 43, 70);
+  width: 500px;
+  height: 300px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 4px 1px rgb(205, 205, 205);
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.dashboard-main label {
+  align-self: center;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+.main-filter-div {
+  display: flex;
+  margin-bottom: 7px;
+  margin-top: 2px;
+}
+
+.main-filter-div select {
+  padding: 7px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 3px;
+  margin-left: auto;
+  font-size: 12pt;
+  outline: none;
+}
+
+.catagory-div {
+  display: flex;
+  font-size: larger;
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.catagory-div #Date {
+  min-width: 150px;
+  text-align: center;
+  align-items: center;
+}
+
+.catagory-div #Item {
+  min-width: 410px;
+  text-align: center;
+}
+
+.catagory-div #Amount {
+  min-width: 200px;
+  text-align: center;
+  margin-left: auto;
+}
+
+.main-holder-div {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-color: gray;
+  border-radius: 3px;
+  border-width: 1px;
+  padding: 7px;
+  padding-bottom: 2px;
+}
+
+.no-data-div {
+  display: flex;
+  flex-direction: row;
+  background-color: grey;
+  align-items: center;
+  justify-content: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 3px;
+  color: white;
+  margin-bottom: 3px;
+  font-size: larger;
+}
+
+.chart {
+  padding: 1rem;
+  border-radius: 3px;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  height: 12rem;
+  width: 800px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.chart-bar {
+  height: 100%;
+  width: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chart-bar__inner {
+  height: 100%;
+  width: 100%;
+  border: 2px solid #313131;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.chart-bar__fill {
+  background-color: #5ae3b3;
+  width: 100%;
+  align-self: center;
+  transition: all 0.3s ease-out;
+}
+
+.chart-bar__label {
+  font-weight: bold;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.spent-month {
+  color: white;
+  font-weight: bolder;
+  font-size: x-large;
+
+}
+
+.progressbar-div {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #d5fff1;
+  overflow: hidden;
+}
+
+
+.bar-percent-fill {
+  height: 100%;
+  background-image: linear-gradient(#e35a5a, #cd1717);
+  transition: all 0.3s ease-out;
+
+}
